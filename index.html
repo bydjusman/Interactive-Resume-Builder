@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Interactive Resume Builder</h1>
+
+    <div class="main-content">
+        <!-- Left Side: Profile Picture and Career Objective -->
+        <div class="left-section">
+          <!-- Profile Picture -->
+        <div class="profile-picture">
+            <img src="usman.jpg" alt="Profile Picture" />
+         </div>
+
+          <!-- Career Objective (Split into 2 Parts) -->
+          <div class="section">
+            <div class="career-objective-top">
+              <h2>Career & Objective</h2>
+              <p><h4>Full stack web development</h4></p>
+            </div>
+          <div class="career-objective-bottom">
+              <p>
+                looking to apply my skills in designing, maintenance, and
+                troubleshooting software programs to satisfy client's needs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Certifications Section -->
+          <div class="section">
+            <h2>Certifications</h2>
+            <p>
+              <strong>Artificial Intelligence, Web 3.0 & Metaverse </strong>
+              <P>Student at Governor House Sindh I.T initiative
+                Karachi (Ongoing)</P>
+            </p>
+           </div>
+        </div>
+
+        <!-- Right Side: Other Information -->
+        <div class="right-section">
+          <!-- Personal Information -->
+          <div class="section">
+            <h2>Personal Information</h2>
+            <p><strong>Name -  </strong> Muhammad-Usman-Khokhar </p>
+            <p><strong>Phone - </strong> 0343-3040204</p>
+            <p><strong>Email - </strong> bydjusman@gmail.com</p>
+            <P><strong> Center - </strong> Governor House Karachi </P>
+            <P><strong>Roll No -<strong> 00483507</P>
+
+              <p>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://linkedin.com/in/ᑌs๓ᴀñ̰-khokhar-bb02a2290"
+                target="_blank"
+                >linkedin ★</a
+              >
+              
+              <strong>GitHub:</strong>
+              <a
+                href="https://github.com/bydjusman"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub ★
+              </a>
+              
+              <strong>Facebook:</strong>
+              <a
+                href="https://facebook.com/profile.php?id=100010830999227"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook ★
+              </a>
+            </p>
+          </div>
+
+          <!-- Education -->
+          <div class="section">
+            <h2> Qualification</h2>
+            <p><strong>Matriculation </strong> </p>
+            <p><strong> Intermediate </strong> </p>
+            <P><strong> Graduation   </strong> Continue</P>
+          </div>
+
+          <!-- Skills with Hide/Show Feature -->
+          <div class="section">
+            <h2>Skills</h2>
+            <button class="toggle-button" onclick="toggleSkills()">
+              Hide/Show Skills
+            </button>
+            <div class="skills" id="skills-section">
+                <p>Ms Office</p>
+                <p>Html & Css </p>
+                <p>Next.js</p>
+                <P>Python</P>
+                <p>JavaScript & TypeScript</p>
+            </div>
+            </div>
+
+          <!-- Work Experience -->
+          <div class="section">
+            <h2>Work Experience </h2>
+            <p><strong>Freshers </strong> -----------------</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+
+     function toggleSkills() {
+    const skillsSection = document.getElementById("skills-section");
+    if (
+      skillsSection.style.display === "none" ||
+      skillsSection.style.display === ""
+    ) {
+      skillsSection.style.display = "block";
+    } else {
+      skillsSection.style.display = "none";
+    }
+  }
+    </script>
+   
+  </body>
+</html>

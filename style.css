@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox layout for main content */
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+.left-section {
+    flex: 1;
+    text-align: center;
+}
+
+.right-section {
+    flex: 2;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Profile Picture - Smaller size */
+.profile-picture img {
+    width: 100px; /* Reduced the size */
+    height: 100px; /* Reduced the size */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4CAF50;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: none;
+    margin-top: 10px;
+}
+
+.skill-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.skill-button:hover {
+    background-color: #45a049;
+}
+
+.toggle-button {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
